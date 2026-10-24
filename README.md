@@ -22,7 +22,7 @@ I'm a UX designer, not a software engineer, so I don't have a compsci background
 
 ### Userway Accessibility Widget
 
-Userway is an Israel-based company. No money is given to the company by the use of this widget, but if this bothers you, you can delete the userway content from scripts.js. I chose to include it because I believe the level of control and relief it brings to users outweighs the harm of association, but you are welcome to make your own judgement call about its inclusion in your site.
+Userway was originally an Israeli company. It was bought out by an American company in 2023 but it's difficult to say how much of it is still tied to Israel. No money is given to the company by the use of this widget, but if this bothers you, you can delete the userway content from scripts.js. I chose to include it because I believe the level of control and relief it brings to users outweighs the harm of association, but you are welcome to make your own judgement call about its inclusion in your site.
 
 ## How to use this repository
 
