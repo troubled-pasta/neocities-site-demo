@@ -30,6 +30,9 @@
   /* text */
   --palette-text-light: #fff;
   --palette-text-dark: #000;
+
+  /* font */
+  --font-family: "Montserrat", sans-serif; 
   
   /* borders */
   --border: 3px solid var(--palette-theme-white);
@@ -119,7 +122,7 @@ button:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #000;
+  background-color: var(--palette-theme-black);
   opacity: 1;
   z-index: 12;
   cursor: pointer;
@@ -166,8 +169,6 @@ h1 {
   font-weight: 400;
   }
 
-h2 {}
-
 h3 {
   font-size: 1.5em;
   font-weight: 600;
@@ -186,8 +187,6 @@ h5 {
 h6 {
   font-weight: 600;
   }
-
-p {}
 
 a {
   cursor: pointer;
@@ -286,6 +285,7 @@ a:hover {
 /* Animations */
 /* ------------------------------------------- */
 
+/* shake button click interaction for buttons that don't link anywhere yet*/
 .button-empty {
   animation-name: none;
   }
@@ -323,7 +323,7 @@ body {
   margin: 0;
   background-color: var(--palette-theme-black);
   color: var(--palette-text-light);
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-family);
   font-optical-sizing: auto;
   }
 
@@ -676,14 +676,14 @@ main {
 /* Sub pages */
 /* ------------------------------------------- */
 
-.project-title {
+.page-title {
   max-width: 500px;
   margin: 0 auto !important;
   text-align: center;
   font-size: 2.25em;
   }
 
-.project-subtitle {
+.page-subtitle {
   max-width: 500px;
   margin: 0 auto;
   padding: 1.25rem 0;
