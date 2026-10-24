@@ -1,6 +1,6 @@
 # Age-gated Neocities Site Demo
 
-Neocities sites already lets you mark a site as 18+ in site Settings, but I made this project for people who want to host NSFW or adult content on Neocities with peace of mind that nobody is seeing it unless they actively choose to.
+Neocities already lets you mark a site as 18+ in site Settings, but I made this project for people who want to host NSFW or adult content on Neocities with peace of mind that nobody is seeing it unless they actively choose to.
 
 ## Features
 
