@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <!-- meta tags -->
+  <meta charset="utf-8">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- bootstrap framework -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- CSS -->
+  <link href="./style.css" rel="stylesheet" type="text/css" media="all">
+  <title>Gallery | Age Gate Demo Site</title>
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+<body>
+  <div id="gate">
+    <div class="gate-card">
+        <p class="gate-card-text">You must be 18 years of age to enter this website</p>
+        <button class="button gate-button" onclick="off()" aria-label="Confirm age">Yes, I'm 18 or older</button>
+    </div>
+  </div>
+  <a id="skipID" class="skip-to-content-link" href="#main-content">Skip to content</a>
+  <div id="container">
+    <!--<div id="utility-bar" class="center"></div>-->
+    <div id="header">
+      <div id="logo-container">
+        <a href="./" class="transition-link">
+          <img id="logo" src="./images/testing/wf-logo.jpg" alt="Placeholder logo">
+        </a>
+      </div>
+      <div id="header-area">    
+        <nav id="nav-bar" class="navbar navbar-expand-md" aria-label="main-menu">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsible-navbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="collapsible-navbar" class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="./" class="nav-link transition-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./gallery" class="nav-link transition-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./link-2" class="nav-link transition-link">Link 2</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./link-3" class="nav-link transition-link">Link 3</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./link-4" class="nav-link transition-link">Link 4</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./link-5" class="nav-link transition-link">Link 5</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./link-6" class="nav-link transition-link">Link 6</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./links" class="nav-link transition-link">Links</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./link-8" class="nav-link transition-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <main id="main-content" class="full-width">
+      <div class="title-banner gradient">
+        <div class="fixed-width">
+          <h1 class="project-title">Gallery</h1>
+        </div>
+      </div>
+      <div class="fixed-width">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-12">
+            <h2 class="section-title center">Carousel</h2>
+            <!-- carousel1 start -->
+            <div class="carousel-container" id="carousel1">
+              <div class="carouselSlides">
+                <img src="./images/testing/placeholder-1.jpg" tabindex="0" class="carousel-content" alt="Placeholder text">
+              </div>
+              <div class="carouselSlides">
+                <img src="./images/testing/placeholder-2.jpg" tabindex="0" class="carousel-content" alt="Placeholder text">
+              </div>
+              <div class="carouselSlides">
+                <img src="./images/testing/placeholder-3.jpg" tabindex="0" class="carousel-content" alt="Placeholder text">
+              </div>
+              <a class="prev" tabindex="0" aria-label="Previous slide"></a>
+              <a class="next" tabindex="0" aria-label="Next slide"></a>
+            </div>
+            <div role="dialog" aria-modal="true" aria-labelledby="modal-carousel1-header" tabindex="-1" class="modal" id="modal-carousel1" >
+              <h3 id="modal-carousel1-header" class="sr-only">Gallery viewer</h3>
+              <button class="close cursor" tabindex="0" aria-label="Close gallery"></button>
+              <div class="modal-content">
+                <div class="modalSlides">
+                  <div class="number-text">1 / 3</div>
+                  <img src="./images/testing/placeholder-1.jpg" class="slide-content" alt="Placeholder text">
+                  <div class="caption-container"><p class="caption">My Caption 1</p></div>
+                </div>
+                <div class="modalSlides">
+                  <div class="number-text">2 / 3</div>
+                  <img src="./images/testing/placeholder-2.jpg" class="slide-content" alt="Placeholder text">
+                  <div class="caption-container"><p class="caption">My Caption 2</p></div>
+                </div>
+                <div class="modalSlides">
+                  <div class="number-text">3 / 3</div>
+                  <img src="./images/testing/placeholder-3.jpg" class="slide-content" alt="Placeholder text">
+                  <div class="caption-container"><p class="caption">My Caption 3</p></div>
+                </div>
+                <button class="prev" tabindex="0" aria-label="Previous slide"></button>
+                <button class="next" tabindex="0" aria-label="Next slide"></button>
+              </div>
+            </div>
+            <!-- carousel1 end-->
+          </div>
+          <div class="col-12 col-md-12 col-lg-12">
+          <h2 class="section-title center">Gallery</h2>
+            <!-- gallery1 start -->
+            <div class="gallery-container" id="gallery1">
+              <div class="gallery-row">
+                <img src="./images/testing/placeholder-1.jpg" tabindex="0" class="gallery-item img-fluid" alt="Placeholder text">
+                <img src="./images/testing/placeholder-2.jpg" tabindex="0" class="gallery-item img-fluid" alt="Placeholder text">
+                <img src="./images/testing/placeholder-3.jpg" tabindex="0" class="gallery-item img-fluid" alt="Placeholder text">
+                <img src="./images/testing/placeholder.jpg" tabindex="0" class="gallery-item img-fluid" alt="Placeholder text">
+                <img src="./images/testing/placeholder.jpg" tabindex="0" class="gallery-item img-fluid" alt="Placeholder text">
+                <img src="./images/testing/placeholder.jpg" tabindex="0" class="gallery-item img-fluid" alt="Placeholder text">
+                <img src="./images/testing/placeholder.jpg" tabindex="0" class="gallery-item img-fluid" alt="Placeholder text">
+                <img src="./images/testing/placeholder.jpg" tabindex="0" class="gallery-item img-fluid" alt="Placeholder text">
+                <img src="./images/testing/placeholder.jpg" tabindex="0" class="gallery-item img-fluid" alt="Placeholder text">
+                <img src="./images/testing/placeholder.jpg" tabindex="0" class="gallery-item img-fluid" alt="Placeholder text">
+                <img src="./images/testing/placeholder.jpg" tabindex="0" class="gallery-item img-fluid" alt="Placeholder text">
+                <img src="./images/testing/placeholder.jpg" tabindex="0" class="gallery-item img-fluid" alt="Placeholder text">
+                <img src="./images/testing/placeholder.jpg" tabindex="0" class="gallery-item img-fluid" alt="Placeholder text">
+                <img src="./images/testing/placeholder.jpg" tabindex="0" class="gallery-item img-fluid" alt="Placeholder text">
+              </div>
+            </div>
+            <div role="dialog" aria-modal="true" aria-labelledby="modal-gallery1-header" tabindex="-1" class="modal" id="modal-gallery1" >
+              <h3 id="modal-gallery1-header" class="sr-only">Gallery viewer</h3>
+              <button class="close cursor" tabindex="0" aria-label="Close gallery"></button>
+              <div class="modal-content">
+                <div class="modalSlides">
+                  <div class="number-text">1 / 13</div>
+                  <img src="./images/testing/placeholder-1.jpg" class="slide-content" alt="Placeholder text">
+                  <div class="caption-container"><p class="caption">My Caption 1</p></div>
+                </div>
+                <div class="modalSlides">
+                  <div class="number-text">2 / 13</div>
+                  <img src="./images/testing/placeholder-2.jpg" class="slide-content" alt="Placeholder text">
+                  <div class="caption-container"><p class="caption">My Caption 2</p></div>
+                </div>
+                <div class="modalSlides">
+                  <div class="number-text">3 / 13</div>
+                  <img src="./images/testing/placeholder-3.jpg" class="slide-content" alt="Placeholder text">
+                  <div class="caption-container"><p class="caption">My Caption 3</p></div>
+                </div>
+                <div class="modalSlides">
+                  <div class="number-text">4 / 13</div>
+                  <img src="./images/testing/placeholder.jpg" class="slide-content" alt="Placeholder text">
+                  <div class="caption-container"><p class="caption">My Caption 4</p></div>
+                </div>
+                <div class="modalSlides">
+                  <div class="number-text">5 / 13</div>
+                  <img src="./images/testing/placeholder.jpg" class="slide-content" alt="Placeholder text">
+                  <div class="caption-container"><p class="caption">My Caption 5</p></div>
+                </div>
+                <div class="modalSlides">
+                  <div class="number-text">6 / 13</div>
+                  <img src="./images/testing/placeholder.jpg" class="slide-content" alt="Placeholder text">
+                  <div class="caption-container"><p class="caption">My Caption 6</p></div>
+                </div>
+                <div class="modalSlides">
+                  <div class="number-text">7 / 13</div>
+                  <img src="./images/testing/placeholder.jpg" class="slide-content" alt="Placeholder text">
+                  <div class="caption-container"><p class="caption">My Caption 7</p></div>
+                </div>
+                <div class="modalSlides">
+                  <div class="number-text">8 / 13</div>
+                  <img src="./images/testing/placeholder.jpg" class="slide-content" alt="Placeholder text">
+                  <div class="caption-container"><p class="caption">My Caption 8</p></div>
+                </div>
+                <div class="modalSlides">
+                  <div class="number-text">9 / 13</div>
+                  <img src="./images/testing/placeholder.jpg" class="slide-content" alt="Placeholder text">
+                  <div class="caption-container"><p class="caption">My Caption 9</p></div>
+                </div>
+                <div class="modalSlides">
+                  <div class="number-text">10 / 13</div>
+                  <img src="./images/testing/placeholder.jpg" class="slide-content" alt="Placeholder text">
+                  <div class="caption-container"><p class="caption">My Caption 10</p></div>
+                </div>
+                <div class="modalSlides">
+                  <div class="number-text">11 / 13</div>
+                  <img src="./images/testing/placeholder.jpg" class="slide-content" alt="Placeholder text">
+                  <div class="caption-container"><p class="caption">My Caption 11</p></div>
+                </div>
+                <div class="modalSlides">
+                  <div class="number-text">12 / 13</div>
+                  <img src="./images/testing/placeholder.jpg" class="slide-content" alt="Placeholder text">
+                  <div class="caption-container"><p class="caption">My Caption 12</p></div>
+                </div>
+                <div class="modalSlides">
+                  <div class="number-text">13 / 13</div>
+                  <img src="./images/testing/placeholder.jpg" class="slide-content" alt="Placeholder text">
+                  <div class="caption-container"><p class="caption">My Caption 13</p></div>
+                </div>
+                <button class="prev" tabindex="0" aria-label="Previous slide"></button>
+                <button class="next" tabindex="0" aria-label="Next-slide"></button>
+              </div>
+            </div>
+            <!-- gallery1 end -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-12 center">
+            <a href="#skipID" class="button" title="Go to top">Return to top</a>  
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="footer-container">
+      <div class="footer-content">
+        <a class="external-link left" href="#" rel="noreferrer" title="Opens your email client">Send me an email</a>
+        <a class="left" href="./sitemap" title="Site Map">View site map</a>
+        <p class="right">© UserName</p>
+      </div>
+    </footer>
+  </div>
+  <!-- scripts -->
+  <script src="./scripts.js"></script>
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <noscript>
+    <meta http-equiv="refresh" content="0;url=http://troubledpasta.neocities.org/noscript.html">
+  </noscript>
+</body>
