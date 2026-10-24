@@ -12,9 +12,9 @@
   --palette-theme-black: #000000;
 
   /* utility bar status colors */
-  --palette-status-red: #ed1c24;
-  --palette-status-blue: #0088cb;
-  --palette-status-yellow: #ffcb05;
+  --palette-status-high: #ed1c24;
+  --palette-status-medium: #ffcb05;
+  --palette-status-low: #0088cb;
 
   /* brand colors */
   --palette-brand-primary: #EDABC9; /* pink */
@@ -46,6 +46,8 @@
 /* ------------------------------------------- */
 /* Accessibility */
 /* ------------------------------------------- */
+
+/* Do not turn off focus outlines unless you want to look like a jerk */
 
 :focus-visible {
   position: relative;
@@ -434,16 +436,16 @@ html {
 	height: auto;
 	margin: 0;
 	padding: 10px 0;
-	background-color: var(--palette-brand-tertiary);
+	/*background-color: var(--palette-brand-tertiary);*/
   }
 
 #utility-bar p {
   margin-bottom: 0;
   color: var(--palette-text-dark);
-}
+  }
 
 #utility-bar button.close {
-	position: absolute;
+	position: relative;
 	top: 7px;
 	right: 12px;
 	background-color: transparent;
@@ -453,11 +455,23 @@ html {
 	width: 30px;
 	height: 30px;
 	outline-offset: 2px;
-}
+  }
 
 #utility-bar button:focus {
 	outline: 2px solid var(--palette-text-dark);
-}
+  }
+
+#utility-bar.priority-high {
+  background-color: var(--palette-status-high);
+  }
+
+#utility-bar.priority-medium {
+  background-color: var(--palette-status-medium);
+  }
+
+#utility-bar.priority-low {
+  background-color: var(--palette-status-low);
+  }
 
 /* ------------------------------------------- */
 /* Header */
