@@ -442,6 +442,23 @@ html {
   color: var(--palette-text-dark);
 }
 
+#utility-bar button.close {
+	position: absolute;
+	top: 7px;
+	right: 12px;
+	background-color: transparent;
+	border: none;
+	background-image: url(./images/sprite-sheet.png);
+	background-position: -125px -125px;
+	width: 30px;
+	height: 30px;
+	outline-offset: 2px;
+}
+
+#utility-bar button:focus {
+	outline: 2px solid var(--palette-text-dark);
+}
+
 /* ------------------------------------------- */
 /* Header */
 /* ------------------------------------------- */
@@ -847,10 +864,6 @@ main {
     transform: translate(0, -50%);
     padding: 16px;
     width: auto;
-    color: var(--palette-text-light);
-    text-decoration: none;
-    font-weight: 300;
-    font-size: 2rem;
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -901,11 +914,6 @@ main {
     top: 25px;
     right: 25px;
     background-color: transparent;
-    color: var(--palette-text-light);
-    border: none;
-    font-family: "Noto Sans Symbol", sans-serif;
-    font-size: 35px;
-    font-weight: 300;
     background-image: url(./images/sprite-sheet.png);
     background-position: -112px 0;
     width: 56px;
@@ -917,8 +925,6 @@ main {
   .close:not(:disabled):not(.disabled):focus, 
   .close:not(:disabled):not(.disabled):hover {
     opacity: 1;
-    color: var(--palette-text-light);
-    text-decoration: none;
     cursor: pointer;
     }
 

@@ -342,9 +342,18 @@ const utilityBar = document.getElementById("utility-bar");
 
 if (utilityBar) {
   const button = utilityBar.querySelector("button");
-  if (button){
-    button.addEventListener("click", function() {
+
+  // Check whether the utility bar was already closed.
+  if (sessionStorage.getItem("utilityBarClosed")) {
+    utilityBar.style.display = "none";
+  }
+
+  if (button) {
+    button.addEventListener("click", function () {
       utilityBar.style.display = "none";
+
+      // Remember that the utility bar was closed.
+      sessionStorage.setItem("utilityBarClosed", "true");
     });
   }
 }
