@@ -20,7 +20,7 @@ Neocities sites already let you mark a site as 18+ in site Settings, but I made 
 
 I'm a UX designer, not a software engineer, so I don't have a compsci background. I had about 3 months of formal training in p5.js so my knowledge of JS is pretty limited - if the scripts seem a little janky, that's why! The scripts do what they're supposed to though so it should be serviceable for 99% of users.
 
-### Userway Accessibility Widget
+### Userway acessibility widget
 
 Userway was originally an Israeli company. It was bought out by an American company in 2023 but it's difficult to say how much of it is still tied to Israel. No money is given to the company by the use of this widget, but if this bothers you, you can delete the userway content from scripts.js. I chose to include it because I believe the level of control and relief it brings to users outweighs the harm of association, but you are welcome to make your own judgement call about its inclusion in your site.
 
@@ -35,7 +35,7 @@ If you're not familiar with GitHub, think of it like an online folder where I ca
 - Extract the ZIP file on your computer.
 - Upload the files inside to your Neocities site's root folder.
 
-### Questions or Concerns
+### Questions or concerns
 
 At this stage the comments in the code aren't as instructive as I'd like them to be, so I'm willing to give basic pointers on updating the site files if you run into troubles.
 
