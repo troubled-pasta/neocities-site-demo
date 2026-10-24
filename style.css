@@ -431,23 +431,29 @@ html {
 /* Utility bar */
 /* ------------------------------------------- */
 
-#utility-bar {
+.utility-bar {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
 	width: 100%;
 	height: auto;
 	margin: 0;
-	padding: 10px 0;
-	/*background-color: var(--palette-brand-tertiary);*/
+	padding: 1em .5em;
+	background-color: var(--palette-brand-tertiary);
   }
 
-#utility-bar p {
+.utility-bar p {
   margin-bottom: 0;
   color: var(--palette-text-dark);
+  text-align: center;
   }
 
-#utility-bar button.close {
-	position: relative;
-	top: 7px;
-	right: 12px;
+.utility-bar button.close {
+	position: absolute;
+  top: .5em;
+  right: .5em;
 	background-color: transparent;
 	border: none;
 	background-image: url(./images/sprite-sheet.png);
@@ -457,19 +463,19 @@ html {
 	outline-offset: 2px;
   }
 
-#utility-bar button:focus {
+.utility-bar button:focus {
 	outline: 2px solid var(--palette-text-dark);
   }
 
-#utility-bar.priority-high {
+.utility-bar.priority-high {
   background-color: var(--palette-status-high);
   }
 
-#utility-bar.priority-medium {
+.utility-bar.priority-medium {
   background-color: var(--palette-status-medium);
   }
 
-#utility-bar.priority-low {
+.utility-bar.priority-low {
   background-color: var(--palette-status-low);
   }
 

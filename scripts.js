@@ -338,25 +338,22 @@ if (gate) {
 
 /* --------- ANNOUNCEMENTS --------- */
 
-const utilityBar = document.getElementById("utility-bar");
+const utilityBars = document.querySelectorAll('[id^="utility-bar-"]');
 
-if (utilityBar) {
+utilityBars.forEach((utilityBar) => {
   const button = utilityBar.querySelector("button");
 
-  // Check whether the utility bar was already closed.
-  if (sessionStorage.getItem("utilityBarClosed")) {
-    utilityBar.style.display = "none";
-  }
-
   if (button) {
-    button.addEventListener("click", function () {
+    button.addEventListener("click", () => {
       utilityBar.style.display = "none";
-
-      // Remember that the utility bar was closed.
-      sessionStorage.setItem("utilityBarClosed", "true");
+      sessionStorage.setItem(utilityBar.id, "true");
     });
   }
-}
+
+  if (sessionStorage.getItem(utilityBar.id) === "true") {
+    utilityBar.style.display = "none";
+  }
+});
 
 /* --------- EMAIL SPAM GUARD --------- */
 
