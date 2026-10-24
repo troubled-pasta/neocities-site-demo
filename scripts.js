@@ -336,6 +336,18 @@ if (gate) {
   };
 }
 
+/* --------- ANNOUNCEMENTS --------- */
+
+const utilityBar = document.getElementById("utility-bar");
+
+if (utilityBar) {
+  const button = utilityBar.querySelector("button");
+  if (button){
+    button.addEventListener("click", function() {
+      utilityBar.style.display = "none";
+    });
+  }
+}
 
 /* --------- EMAIL SPAM GUARD --------- */
 
@@ -376,7 +388,7 @@ function secureEmail(encoded) {
   // s.setAttribute("data-trigger", "triggerId");
 
   // UserWay account.
-  s.setAttribute("data-account", "vXuE6xzDxK");
+  s.setAttribute("data-account", "[your account value here]");
 
   // Load widget.
   s.setAttribute("src", "https://cdn.userway.org/widget.js");

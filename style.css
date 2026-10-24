@@ -434,10 +434,13 @@ html {
 	height: auto;
 	margin: 0;
 	padding: 10px 0;
-	font-size: smaller;
 	background-color: var(--palette-brand-tertiary);
-	color: var(--palette-text-dark);
   }
+
+#utility-bar p {
+  margin-bottom: 0;
+  color: var(--palette-text-dark);
+}
 
 /* ------------------------------------------- */
 /* Header */
