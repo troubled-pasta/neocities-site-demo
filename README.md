@@ -18,7 +18,7 @@ Neocities sites already let you mark a site as 18+ in site Settings, but I made 
 
 ### JavaScript
 
-I'm a UX designer, not a software engineer, so I don't have a compsci background. I had about 3 months of formal training in p5.js so my knowledge of JS is pretty limited - if the scripts seem a little janky, that's why! The scripts do what they're supposed to though so it should be serviceable for 99% of users.
+I'm a UX designer, not a software engineer, so I don't have a compsci background. I had about 3 months of formal training in p5.js so my knowledge of JS is pretty limited - if the scripts seem a little janky, that's why! The scripts do what they're supposed to though so it should be serviceable for 99% of users. Just don't expect any bleeding-edge best practice.
 
 ### Userway acessibility widget
 
@@ -39,4 +39,4 @@ If you're not familiar with GitHub, think of it like an online folder where I ca
 
 At this stage the comments in the code aren't as instructive as I'd like them to be, so I'm willing to give basic pointers on updating the site files if you run into troubles.
 
-You can send me a message on [Dreamwidth](https://troubledpasta.dreamwidth.org/) and I'll do my best to reply when I can.
+You can [send me a message on Dreamwidth](https://troubledpasta.dreamwidth.org/) and I'll do my best to reply when I can.
