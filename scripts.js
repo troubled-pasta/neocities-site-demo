@@ -295,24 +295,37 @@ document.querySelectorAll(".button-empty").forEach((button) => {
 
 
 /* --------- AGE GATE --------- */
-
 const gate = document.getElementById("gate");
 
 if (gate) {
-  const gateButton = gate.querySelector("button");
+  const gateButton = gate.querySelector(".gate-button");
 
   // Check if age was already confirmed this session.
   if (sessionStorage.getItem("ageConfirmed")) {
     gate.style.display = "none";
   }
 
-  // Trap focus on the button once it receives focus.
+  // Handle age confirmation.
+  if (gateButton) {
+    gateButton.addEventListener("click", () => {
+      sessionStorage.setItem("ageConfirmed", "true");
+
+      gate.style.transition = "opacity 0.5s ease";
+      gate.style.opacity = "0";
+
+      setTimeout(() => {
+        gate.style.display = "none";
+      }, 500);
+    });
+  }
+
+  // Trap focus between the gate button and accessibility icon.
   document.addEventListener("keydown", (e) => {
     if (gate.style.display === "none" || e.key !== "Tab") return;
 
     const uw = document.querySelector("#userwayAccessibilityIcon");
 
-    if (!uw) return;
+    if (!uw || !gateButton) return;
 
     if (e.shiftKey && uw.contains(document.activeElement)) {
       e.preventDefault();
@@ -322,18 +335,6 @@ if (gate) {
       uw.focus();
     }
   });
-
-  // Fade out the gate and remember confirmation.
-  window.off = function () {
-    sessionStorage.setItem("ageConfirmed", "true");
-
-    gate.style.transition = "opacity 0.5s ease";
-    gate.style.opacity = "0";
-
-    setTimeout(() => {
-      gate.style.display = "none";
-    }, 500);
-  };
 }
 
 /* --------- ANNOUNCEMENTS --------- */
