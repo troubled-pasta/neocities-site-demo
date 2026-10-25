@@ -13,6 +13,7 @@ Neocities already lets you mark a site as 18+ in site Settings, but I made this 
 - Smooth transitions between pages
 - UserWay accessibility widget
 - Anti-AI `robots.txt` (AI crawlers can also be blocked through Neocities site settings)
+- Spam guard on links with `href="javascript:secureEmail('#');"` - ([Base64 encode](https://www.base64decode.org/) your link and paste it where the `#` is)
 
 ## Disclaimers
 
