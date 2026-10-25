@@ -22,7 +22,7 @@ I'm a UX designer, not a software engineer, so I don't have a compsci background
 
 ### Userway acessibility widget
 
-Userway was originally an Israeli company. It was bought out by an American company in 2023 but it's difficult to say how much of it is still tied to Israel. No money is given to the company by the use of this widget, but if this bothers you, you can delete the userway content from scripts.js. I chose to include it because I believe the level of control and relief it brings to users outweighs the harm of association, but you are welcome to make your own judgement call about its inclusion in your site.
+Userway was originally an Israeli company. It was bought out by an American company in 2023 but it's difficult to say how much of it is still tied to Israel. No money is given to the company by the use of this widget, but if this bothers you, you can delete the userway content from scripts.js. I chose to include it because I believe the level of control and relief it brings to users with accessibility needs outweighs the harm of association, but you are welcome to make your own judgement call about its inclusion in your site.
 
 ## How to use this repository
 
@@ -35,11 +35,13 @@ If you're not familiar with GitHub, think of it like an online folder where I ca
 - Extract the ZIP file on your computer.
 - Upload the files inside to your Neocities site's root folder.
 
-### Do I need to credit you?
+I'd recommend uploading the files to a blank site, or otherwise backing up your existing site files (if any) so that you don't accidentally overwrite anything important.
+
+## Do I need to credit you?
 Absolutely not. Go nuts, show nuts, say you made it yourself, I don't care. This is all code anyone on earth could cobble together from free tutorials if they were sufficiently motivated to do so, so there's nothing for me to claim ownership of, nor do I care to. All I'm doing is saving you a bit of time.
 
-### Other questions or concerns
+## Other questions or concerns
 
-At this stage the comments in the code aren't as instructive as I'd like them to be, so I'm willing to give basic pointers on updating the site files if you run into troubles.
+At this stage the comments in the code aren't as instructive as I'd like them to be, so I'm willing to give basic pointers on updating or customising the site files if you run into troubles.
 
-You can [send me a message on Dreamwidth](https://troubledpasta.dreamwidth.org/) and I'll do my best to reply when I can.
+You can [send me a message on Dreamwidth](https://troubledpasta.dreamwidth.org/) (or [tumblr](https://www.tumblr.com/new/ask/troubled-pasta) if ya nasty) and I'll do my best to reply when I can.
