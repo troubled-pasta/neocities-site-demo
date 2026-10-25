@@ -36,9 +36,9 @@ If you're not familiar with GitHub, think of it like an online folder where I ca
 - Upload the files inside to your Neocities site's root folder.
 
 ### Do I need to credit you?
-Absolutely not. Go nuts, show nuts, say you made it yourself, I don't care. This is all code anyone on earth could cobble together from free tutorials if they were sufficiently motivated to do so, so there's nothing for me to claim ownership of, nor do I care to.
+Absolutely not. Go nuts, show nuts, say you made it yourself, I don't care. This is all code anyone on earth could cobble together from free tutorials if they were sufficiently motivated to do so, so there's nothing for me to claim ownership of, nor do I care to. All I'm doing is saving you a bit of time.
 
-### Questions or concerns
+### Other questions or concerns
 
 At this stage the comments in the code aren't as instructive as I'd like them to be, so I'm willing to give basic pointers on updating the site files if you run into troubles.
 
