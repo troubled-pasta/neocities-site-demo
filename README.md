@@ -35,6 +35,8 @@ If you're not familiar with GitHub, think of it like an online folder where I ca
 - Extract the ZIP file on your computer.
 - Upload the files inside to your Neocities site's root folder.
 
+I'd recommend uploading the files to a blank site, or otherwise backing up your existing site files (if any) so that you don't accidentally overwrite anything important.
+
 ## Do I need to credit you?
 Absolutely not. Go nuts, show nuts, say you made it yourself, I don't care. This is all code anyone on earth could cobble together from free tutorials if they were sufficiently motivated to do so, so there's nothing for me to claim ownership of, nor do I care to. All I'm doing is saving you a bit of time.
 
