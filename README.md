@@ -44,4 +44,4 @@ Absolutely not. Go nuts, show nuts, say you made it yourself, I don't care. This
 
 At this stage the comments in the code aren't as instructive as I'd like them to be, so I'm willing to give basic pointers on updating or customising the site files if you run into troubles.
 
-You can [send me a message on Dreamwidth](https://troubledpasta.dreamwidth.org/) and I'll do my best to reply when I can.
+You can [send me a message on Dreamwidth](https://troubledpasta.dreamwidth.org/) (or [tumblr](https://www.tumblr.com/troubled-pasta) if ya nasty) and I'll do my best to reply when I can.
