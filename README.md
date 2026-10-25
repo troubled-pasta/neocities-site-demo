@@ -31,7 +31,7 @@ If you're not familiar with GitHub, think of it like an online folder where I ca
 
 ### Steps to download:
 
-- Click the green `<> Code` button near the top of this page.
+- Click the `<> Code` button near the top of this page.
 - Select `Download ZIP`.
 - Extract the ZIP file on your computer.
 - Upload the files inside to your Neocities site's root folder.
